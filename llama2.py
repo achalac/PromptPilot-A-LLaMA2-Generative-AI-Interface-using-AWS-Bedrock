@@ -2,7 +2,7 @@ import boto3
 import json
 
 prompt_data="""
-Act as a Shakespeare and write a poem on Genertaive AI
+Explain the difference between supervised and unsupervised learning with real-world examples.
 """
 
 bedrock=boto3.client(service_name="bedrock-runtime")
